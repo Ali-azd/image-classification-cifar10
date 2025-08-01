@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / virtualenv / Python-specific
+.env/
+.venv/
+env/
+venv/
+ENV/
+img_clf/
+
+*.egg-info/
+Pipfile.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model and training artifacts
+*.h5
+*.keras
+*.ckpt
+*.pb
+*.tflite
+*.pt
+*.onnx
+*.log
+*.pkl
+*.joblib
+
+# NumPy / dataset files
+*.npy
+*.npz
+*.csv
+*.json
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Weights & checkpoints
+checkpoints/
+models/
+saved_models/
+
+# Colab or Google Drive links
+*.ipynb.json
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
